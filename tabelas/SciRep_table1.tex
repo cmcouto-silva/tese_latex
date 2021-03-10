@@ -1,0 +1,34 @@
+\begin{table}[!htbp]
+
+\small
+\centering
+\newcommand\Tstrut{\rule{0pt}{1.2em}}
+
+\resizebox{\linewidth}{!}{
+\begin{tabular}{|l|l|l|l|l|l|r|r|r|r|}% seven columns now, not six...
+\Xhline{1pt}
+%\rowcolor{Gainsboro!60}
+\multirow[b]{2}{*}{\textbf{SNP}} & \multicolumn{2}{c|}{\textbf{Allele}} & \multirow[b]{2}{*}{\textbf{Gene}} & \multicolumn{1}{r|}{\multirow[b]{2}{*}{\textbf{Position}}} & \multicolumn{1}{r|}{\multirow[b]{2}{*}{\textbf{PBS}}} & \multicolumn{4}{c|}{\textbf{XP-EHH}}\\
+\cline{2-3}\cline{7-10}
+%\rowcolor{Gainsboro!60}
+ & \textbf{Ancestral} & \textbf{Derived} & & & & \makecell[r]{\textbf{Andean vs.}\\\textbf{Mesoamerican}} & \textbf{\emph{p}-value} & \makecell[r]{\textbf{Andean vs.}\\\textbf{Amazonian}} & \textbf{\emph{p}-value}\\
+\Xhline{0.5pt} \Tstrut
+rs13411586 &        C* &       T &   \textsl{SP100} & 230988046 & 0.5846 &                  2.3789 &  0.0037 &               2.1703 &  0.0065 \\
+ rs9678342 &        C* &       T &   \textsl{SP100} & 230991955 & 0.5547 &                  2.3193 &  0.0044 &               2.1356 &  0.0071 \\
+ rs7582700 &        T* &       C &   \textsl{SP100} & 231024349 & 0.4644 &                  2.2704 &  0.0050 &               2.1074 &  0.0076 \\
+ rs7039618 &         A &      G* & \textsl{TMEM38B} & 107497627 & 0.3618 &                  0.0842 &  0.3312 &               0.5672 &  0.1458 \\
+ rs3817141 &        T* &       C & \textsl{TMEM38B} & 107507950 & 0.3906 &                  0.0255 &  0.3099 &               0.6205 &  0.1351 \\
+rs10978213 &        G* &       A & \textsl{TMEM38B} & 107511706 & 0.3618 &                  0.0235 &  0.3092 &               0.6171 &  0.1358 \\
+rs10816302 &        A* &       G & \textsl{TMEM38B} & 107526354 & 0.3835 &                  0.0937 &  0.2697 &               0.6664 &  0.1264 \\
+rs10978240 &         A &      G* & \textsl{TMEM38B} & 107575093 & 0.3923 &                  0.0764 &  0.2753 &               0.6307 &  0.1331 \\
+ rs1046778 &         T &      C* &   \textsl{AS3MT} & 104651474 & 0.3124 &                  0.5023 &  0.5118 &               0.4008 &  0.4631 \\
+  rs269866 &        G* &       A &   \textsl{DUOX2} &  43181698 & 0.6185 &                  2.0599 &  0.0086 &               2.5865 &  0.0021 \\
+  rs440191 &         A &      G* &     \textsl{CLC} &  44913483 & 0.3039 &                  1.6207 &  0.0234 &               0.3166 &  0.2046 \\
+\Xhline{1pt}
+
+\end{tabular}}
+
+\caption{Population Branch Statistic (PBS) individual values and Cross-Population Extended Haplotype Homozygosity (XP-EHH) for all SNPs found under selection in Native Andean populations.}
+\label{tab:SciRep_table1}
+
+\end{table}

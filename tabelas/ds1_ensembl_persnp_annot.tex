@@ -1,0 +1,53 @@
+\begin{table}[!htbp]
+\centering
+
+\renewcommand\theadalign{cc}
+\renewcommand\theadfont{\bfseries}
+
+\newcolumntype{M}{>{\raggedright\arraybackslash}m{4.3cm}}
+
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{lrlrlr}
+
+\toprule
+\multicolumn{2}{c}{\thead{PBS}} & \multicolumn{2}{c}{\thead{XP-EHH}} & \multicolumn{2}{c}{\thead{iHS}} \\
+\cmidrule(l{3pt}r{3pt}){1-2} \cmidrule(l{3pt}r{3pt}){3-4} \cmidrule(l{3pt}r{3pt}){5-6}
+Fenótipo & N & Fenótipo & N & Fenótipo & N\\
+\midrule
+\cellcolor{gray!6}{Blood pressure} & \cellcolor{gray!6}{8} & \cellcolor{gray!6}{Blood pressure} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{Body Mass Index} & \cellcolor{gray!6}{16}\\
+Body Mass Index & 8 & Body Height & 7 & Cholesterol, HDL & 12\\
+\cellcolor{gray!6}{Body Height} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{Cholesterol} & \cellcolor{gray!6}{7} & \cellcolor{gray!6}{Body Height} & \cellcolor{gray!6}{11}\\
+Heart Rate & 6 & Heel bone mineral density & 6 & Cholesterol, LDL & 11\\
+\cellcolor{gray!6}{Heel bone mineral density} & \cellcolor{gray!6}{6} & \cellcolor{gray!6}{Asthma} & \cellcolor{gray!6}{5} & \cellcolor{gray!6}{Echocardiography} & \cellcolor{gray!6}{10}\\
+Cholesterol & 5 & Erythrocytes & 5 & Height & 10\\
+\cellcolor{gray!6}{Inborn genetic diseases} & \cellcolor{gray!6}{5} & \cellcolor{gray!6}{Metabolite levels} & \cellcolor{gray!6}{5} & \cellcolor{gray!6}{Blood pressure} & \cellcolor{gray!6}{9}\\
+Hip & 4 & Body Mass Index & 4 & Body Weight & 9\\
+\cellcolor{gray!6}{Myocardial infarction} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{Caffeine consumption} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{Hip} & \cellcolor{gray!6}{9}\\
+Obesity-related traits & 4 & Coronary Artery Disease & 4 & Metabolite levels & 9\\
+\cellcolor{gray!6}{Cholesterol, HDL} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Diastolic blood pressure x smoking status...} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{Cholesterol} & \cellcolor{gray!6}{8}\\
+Cholesterol, LDL & 3 & Diastolic blood pressure x smoking status... & 4 & Myocardial infarction & 8\\
+\cellcolor{gray!6}{Chronotype} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Height} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{Obesity-related traits} & \cellcolor{gray!6}{8}\\
+Diastolic blood pressure & 3 & Diastolic blood pressure x smoking status... & 4 & Heart failure & 7\\
+\cellcolor{gray!6}{Intraocular pressure} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Diastolic blood pressure x smoking status...} & \cellcolor{gray!6}{4} & \cellcolor{gray!6}{Hemoglobin A, Glycosylated} & \cellcolor{gray!6}{7}\\
+Iron & 3 & squamous cell lung carcinoma & 4 & Triglycerides & 7\\
+\cellcolor{gray!6}{Triglycerides} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Acute myeloid leukemia} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Amyotrophic lateral sclerosis} & \cellcolor{gray!6}{6}\\
+Type 2 diabetes & 3 & Asthma (childhood onset) & 3 & Chronotype & 6\\
+\cellcolor{gray!6}{Waist circumference} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Attention deficit hyperactivity disorder} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Lipoproteins, VLDL} & \cellcolor{gray!6}{6}\\
+Alcoholic chronic pancreatitis & 2 & Bipolar disorder & 3 & Stroke & 6\\
+\cellcolor{gray!6}{Alcoholism} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Blood protein levels} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Coronary Artery Disease} & \cellcolor{gray!6}{5}\\
+Aorta & 2 & Breast carcinoma & 3 & Creatinine & 5\\
+\cellcolor{gray!6}{Arterial stiffness index} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Chronic lymphocytic leukemia} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Heel bone mineral density} & \cellcolor{gray!6}{5}\\
+Asthma & 2 & Clear cell renal carcinoma & 3 & Hemoglobin S & 5\\
+\cellcolor{gray!6}{Asthma (childhood onset)} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Cutaneous melanoma} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Inborn genetic diseases} & \cellcolor{gray!6}{5}\\
+Body Fat Distribution & 2 & Endometrial Endometrioid Adenocarcinoma & 3 & Lipids & 5\\
+\cellcolor{gray!6}{Coronary Artery Disease} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Esophageal Squamous Cell Carcinoma} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Lung adenocarcinoma} & \cellcolor{gray!6}{5}\\
+Erythrocyte Count & 2 & Esophageal adenocarcinoma & 3 & Multiple sclerosis & 5\\
+\cellcolor{gray!6}{Estimated glomerular filtration rate} & \cellcolor{gray!6}{2} & \cellcolor{gray!6}{Fibrinogen} & \cellcolor{gray!6}{3} & \cellcolor{gray!6}{Systolic blood pressure} & \cellcolor{gray!6}{5}\\
+Fibrinogen & 2 & HER2 Positive Breast Carcinoma & 3 & squamous cell lung carcinoma & 5\\
+\bottomrule
+\end{tabular}}
+
+\caption{Anotação dos fenótipos por método no dataset S1, utilizando o banco de dados do Ensembl.}
+\label{tab:ds1_ensembl_persnp_annot}
+
+\end{table}
